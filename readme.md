@@ -2,16 +2,15 @@
 
 # node-scatterplot
 
-A cheep and ugly mini-server to quickly plot datasets to a temporary browser window
-The server stops when the browser tab is closed.
+One-off mini-server to quickly plot datasets to a temporary browser window.
 
 ```javascript
-const scatter = require('@hugov/node-scatterplot')
-var set = {squigly: []}
+const plot = require('@hugov/node-scatterplot')
+var set = []
 for (var i = 0; i < 20; i++) {
-	set.squigly.push([ Math.sqrt(i), i * (1 + Math.sin(i/2)) ])
+	set.push([ Math.sqrt(i), i * (1 + Math.sin(i/2)) ])
 }
-scatter.plot(set)
+plot(set)
 ```
 
 ## License
