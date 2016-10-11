@@ -1,0 +1,25 @@
+{
+  "name": "@hugov/node-scatterplot",
+  "version": "0.0.3",
+  "description": "scatter plot for node",
+  "keywords": [
+    "canvas",
+    "chart",
+    "scatter",
+    "node"
+  ],
+  "author": "Hugo Villeneuve",
+  "main": "index.js",
+  "dependencies": {
+    "dygraphs": "^1.1.1",
+    "opener": "^1.4.2",
+    "server-destroy": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "private": false,
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
