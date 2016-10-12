@@ -5,7 +5,7 @@
 One-off mini-server to quickly plot datasets to a temporary browser window.
 
 ```javascript
-const plot = require('@hugov/node-scatterplot')
+const plot = require('node-scatterplot')
 var set = []
 for (var i = 0; i < 20; i++) {
 	set.push([ Math.sqrt(i), i * (1 + Math.sin(i/2)) ])

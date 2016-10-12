@@ -1,6 +1,6 @@
 {
   "name": "node-scatterplot",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "scatter plot for node",
   "keywords": [
     "canvas",
@@ -12,8 +12,7 @@
   "main": "index.js",
   "dependencies": {
     "dygraphs": "^1.1.1",
-    "opener": "^1.4.2",
-    "server-destroy": "^1.0.1"
+    "opener": "^1.4.2"
   },
   "devDependencies": {},
   "scripts": {},
