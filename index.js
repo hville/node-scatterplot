@@ -31,7 +31,8 @@ function createHandler(req, res) {
 		})
 		case '/client.js': return clientCode.then((str) => {
 			res.writeHead(200, codeHeader)
-			res.end(str, server.close)
+			res.end(str)
+			server.close()
 		})
 	}
 }
