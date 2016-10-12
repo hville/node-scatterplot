@@ -1,6 +1,6 @@
 {
-  "name": "@hugov/node-scatterplot",
-  "version": "0.0.4",
+  "name": "node-scatterplot",
+  "version": "0.1.0",
   "description": "scatter plot for node",
   "keywords": [
     "canvas",
