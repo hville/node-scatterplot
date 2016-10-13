@@ -1,6 +1,7 @@
 <!-- markdownlint-disable MD004 MD007 MD010 MD041	MD022 MD024	MD032 -->
 
 # node-scatterplot
+![ScreenCap](./node-scatterplot.gif)
 
 One-off mini-server to quickly plot datasets to a temporary browser window.
 

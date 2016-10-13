@@ -1,6 +1,6 @@
 {
   "name": "node-scatterplot",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "description": "scatter plot for node",
   "keywords": [
     "canvas",
